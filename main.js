@@ -27,6 +27,7 @@ class LineDB{
       }
     };
     
+    this.data = JSON.parse(this.data);
     this.data[key] = value;
 
     req.open("PUT", "https://api.jsonbin.io/v3/b/" + this.bin, true);
