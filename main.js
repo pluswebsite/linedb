@@ -1,4 +1,4 @@
-class LineDB(){
+class LineDB{
   constructor(api-key, bin-id){
     this.bin = bin-id;
     this.api = api-key;
