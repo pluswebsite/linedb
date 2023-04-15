@@ -1,7 +1,7 @@
 class LineDB{
-  constructor(api-key, bin-id){
-    this.bin = bin-id;
-    this.api = api-key;
+  constructor(apiKey, binId){
+    this.bin = binId;
+    this.api = apiKey;
     this.data;
   }
   get(callback){
